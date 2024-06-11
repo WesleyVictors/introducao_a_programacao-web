@@ -1,0 +1,21 @@
+html {
+    font-size: 20px;
+}
+html h1 { 
+    font-size: 2rem;/* 2*20px = 40px*/
+}
+h1 > .principal {
+    font-size: 1.4rem; /* 40px*1.4 = 56 px */
+}
+html .secundario { 
+    font-size: 1.4rem; /* 20*1.4 = 28px*/
+}
+.cor{
+    background-color:rgb(219, 78, 68); 
+}
+.cor-clara {
+    background-color: rgb(252, 90, 78);
+}
+.cor-escura{
+    background-color:rgb(186, 66, 58);
+}
