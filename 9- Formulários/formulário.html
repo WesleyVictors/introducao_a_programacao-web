@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Pesquisa de satisfação</h1>
+    <form method="post" action="processar-pesquisa.html">
+        <section>
+            <h2>Dados pessoais</h2>
+            <p>
+                <label for="nome">Nome: </label>
+                <input type="text" id="nome">
+            </p>
+            <p>
+                <label for="email">Email: </label>
+                <input type="email" id="email">
+            </p>
+            <p>
+                <label for="telefone">Telefone: </label>
+                <input type="tel" id="telefone">
+            </p>
+            
+        </section>
+        <section>
+            <p>
+                Avalie o atendimento de 1 a 5
+                <input type="radio" id="1" name="nivel_atendimento">
+                <label for="1">1</label> 
+                <input type="radio" id="2" name="nivel_atendimento">
+                <label for="2">2</label> 
+                <input type="radio" id="3" name="nivel_atendimento">
+                <label for="3">3</label> 
+                <input type="radio" id="4" name="nivel_atendimento">
+                <label for="4">4</label> 
+                <input type="radio" id="5" name="nivel_atendimento">
+                <label for="5">5</label> 
+            </p>
+            <p> 
+                Em uma escala de 1 a 5 avalie a qualidade do site
+                <input type="radio" id="1" name="nivel_site">
+                <label for="1">1</label> 
+                <input type="radio" id="2" name="nivel_site">
+                <label for="2">2</label> 
+                <input type="radio" id="3" name="nivel_site">
+                <label for="3">3</label> 
+                <input type="radio" id="4" name="nivel_site">
+                <label for="4">4</label> 
+                <input type="radio" id="5" name="nivel_site">
+                <label for="5">5</label>
+            </p>
+            <p>
+                <label>Departamento de atendimento</label>
+                <select> 
+                    <option>Marketing</option>
+                    <option>Financeiro</option>
+                    <option>Recursos Humanos</option>
+                    <option>Logistíca</option>
+                </select>
+            </p>
+            <p>
+                <input type="checkbox" id="Compartilhar_dados">
+                <label for="compartilhar_dados">Autorizo o compartilhamento de dados com terceiros</label>
+            </p>
+        </section>
+        <input type="submit" value="Enviar">
+    </form>
+    
+</body>
+</html>
